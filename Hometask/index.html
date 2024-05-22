@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="first-section">
+      <form class="first-form">
+        <p class="form-header">Registration</p>
+        <div class="under-header"></div>
+        <input type="text" placeholder="Enter your name" />
+        <input type="email" placeholder="Enter your email" />
+        <input type="password" placeholder="Create password" />
+        <input type="password" placeholder="Confirm password" />
+        <div class="check-input-div">
+          <input type="checkbox" name="" id="terms-checkbox" />
+          <label for="terms-checkbox">I accept all terms & conditions</label>
+        </div>
+        <input type="submit" name="" id="submit" value="Register Now" />
+        <p class="question-account">
+          Already have an account? <a href="#">Login now</a>
+        </p>
+      </form>
+    </section>
+
+    <section class="second-section">
+      <form class="second-form">
+        <img src="./assets/DOnation1.png">
+        <p class="form-header">Donation Form</p>
+        <p class="under-header">Thanks for donating to our cause</p>
+
+        <div class="input-div">
+          <label for="" class="required">Name</label>
+          <div class="input-flex-div">
+            <div>
+              <input type="text" id="" required>
+              <span>First</span>
+            </div>
+            <div >
+              <input type="text" id="" required>
+              <span>Last</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-div">
+          <label for="" class="required">Email</label>
+          <input type="email" name="" id="" required>
+        </div>
+
+        <div class="input-div cost-input">
+          <label for="">How much would you like to donate?</label>
+          <input type="email" name="" id="">
+          <span>USD</span>
+        </div>
+      
+        <div class="input-div">
+          <label for="">How would you like donate?</label>
+          <select name="" id="">
+            <option value="">-Select-</option>
+            <option value="1 option"> option1</option>
+            <option value="2 option"> option2</option>
+            <option value="3 option"> option3</option>
+            <option value="4 option"> option4</option>
+          </select>
+        </div>
+
+        <div class="check-input-div">
+          <input type="checkbox" name="" id="terms-checkbox" />
+          <label for="terms-checkbox">I accept all terms & conditions</label>
+        </div>
+
+        <button>Preceed</button>
+      </form>
+    </section>
+  </body>
+</html>

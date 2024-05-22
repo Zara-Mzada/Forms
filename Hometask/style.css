@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Radio Canada Big', sans-serif;
+}
+:root{
+    --main-blue:#3f70f3;
+    --text-color: #949198;
+    --main-orange: #ffb894;
+    --second-text-color: #2f3437;
+    --button-color: #fc5602;
+}
+.required:after {
+    content:" *";
+    color: red;
+}
+html{
+    font-size: 16px;
+}
+.first-section{
+    background-color: var(--main-blue);
+    padding: 130px 0;
+}
+.first-form{
+    width: 30%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+.first-section .form-header{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.first-section .under-header{
+    background-color: var(--main-blue);
+    width: 30px;
+    height: 3px;
+    margin-bottom: 30px;
+}
+.first-form > input{
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid #e5e3e4;
+    border-bottom: 2px solid #cec9cb;
+    border-radius: 3px;
+    outline: none;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+.first-form .check-input-div{
+    margin: 20px 0;
+}
+#terms-checkbox{
+    margin-right: 10px;
+}
+.first-form .check-input-div > label{
+    color: var(--text-color);
+}
+#submit{
+    background-color: var(--main-blue);
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.question-account{
+    text-align: center;
+    color: #6b636a;
+}
+.question-account a{
+    text-decoration: none;
+    color: var(--main-blue);
+}
+
+/* ######### Second form ########## */
+.second-section{
+    background-color: var(--main-orange);
+    padding: 130px 0;
+    color: var(--second-text-color);
+}
+.second-form{
+    width: 45%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+}
+.second-form img{
+    width: 200px;
+    margin: 0 auto 10px;
+    display: block;
+}
+.second-form .form-header{
+    font-size: 2rem;
+    text-align: center;
+}
+.second-form .under-header{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.second-form input{
+    padding: 10px 5px;
+    border-radius: 25px;
+    border: none;
+    background-color: #eff3ff;
+    display: block;
+}
+.input-div{
+    margin-bottom: 20px;
+}
+.input-div>label{
+    display: block;
+    margin-bottom: 10px;
+}
+.input-flex-div{
+    display: flex;
+    justify-content: space-between;
+}
+.input-flex-div div{
+    width: 45%;
+}
+.input-flex-div input{
+    width: 100%;
+}
+.input-flex-div span{
+    font-size: .8rem;
+    color: #9c9c9c;
+    margin-left: 10px;
+}
+.inline-input-div>input{
+    display: inline-block;
+}
+.input-div>input{
+    width: 100%;
+}
+.cost-input>input{
+    width: 90%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.cost-input>span{
+   color: #9c9c9c; 
+}
+select{
+    padding: 10px 5px;
+    border-radius: 25px;
+    border: none;
+    background-color: #eff3ff;
+    display: block;
+    width: 100%;
+}
+option{
+    color: var(--text-color);
+}
+.second-form .check-input-div input{
+    display: inline;
+}
+.second-form .check-input-div{
+    margin-bottom: 40px;
+}
+.second-form button{
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 10px 5px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--button-color);
+    color: #ffffff;
+    cursor: pointer;
+}
